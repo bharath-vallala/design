@@ -1,0 +1,15 @@
+.container2{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: baseline;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+.chartCont{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: baseline;
+    margin-top: 2rem;
+}

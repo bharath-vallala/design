@@ -1,0 +1,34 @@
+.container4{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: end;
+    margin-left: 2rem;
+    margin-top: 3rem;
+}
+.slidecontainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 820px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) {
+    .container4{
+        margin: 0.2rem;
+        padding: 0.2rem;
+        
+    }
+    .container4 .primaryButton{
+      border-radius: 0;
+    }
+    .go{
+        display: none;
+    }
+    .left{
+        margin-left: 2rem;
+    }
+}
